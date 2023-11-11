@@ -1,0 +1,93 @@
+/* MainContent.css */
+
+/* Estilos generales para el contenido principal */
+.main-content {
+  margin-top: 20px;
+  margin-left: 18px;
+  margin-right: 18px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+/* Estilos específicos para las tarjetas de país */
+.country-card {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra más larga para una apariencia elevada */
+  margin: 16px;
+  padding: 0px;
+  border: 1px solid #ddd;
+  border-radius: 40px;
+  width: 270px;
+  height: 180px;
+  background-color: white;
+  position: relative;
+  overflow: hidden;
+}
+
+/* Estilo para la imagen grande en la tarjeta */
+.country-large-image {
+  width: 100%;
+  height: 65%;
+  object-fit: cover;
+}
+
+/* Estilo para la imagen pequeña superpuesta en la esquina */
+.country-small-image {
+  position: absolute;
+  bottom: 8px; /* Ajusta la posición desde la parte inferior */
+  left: 8px; /* Ajusta la posición desde la parte izquierda */
+  width: 30%;
+  height: 30%;
+  object-fit: cover;
+}
+
+/* Estilo general para la imagen en la tarjeta */
+.country-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Estilo para la bandera en la tarjeta */
+.country-flag {
+  width: 65%;
+  height: 70%;
+  margin-top: 13%;
+  margin-left: 15%;
+  object-fit: cover;
+}
+
+/* Estilos para la información en la tarjeta */
+.country-info {
+  bottom: 0;
+  right: 0;
+  margin-top: 1.5%;
+  margin-left: 28%;
+  width: 70%;
+  height: 30%;
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 8px;
+}
+
+/* Estilo para el nombre del país en la tarjeta */
+.country-name {
+  font-size: 16px;
+  font-weight: bold;
+  margin: 0;
+  font-family: "Verdana", sans-serif;
+  color: #009aff;
+}
+
+/* Estilo para el continente en la tarjeta */
+.country-continent {
+  font-size: 12px;
+  margin: 0;
+  font-family: "Verdana", sans-serif;
+  color: #898989;
+}
+
+/* Clase para aplicar un ancho expandido (70%) */
+/* Puedes aplicar esta clase dinámicamente según tus necesidades */
+.expanded-width {
+  width: 70%;
+}

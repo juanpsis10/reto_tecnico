@@ -1,0 +1,71 @@
+/* FilterContent.css */
+#filter-content {
+  width: 45%;
+  height: 40%;
+  background-color: #ffffff;
+  position: absolute;
+  z-index: 1;
+  margin-top: 70px;
+  margin-left: -1%;
+  border-radius: 50px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  height: 10px;
+  margin: 10px;
+  margin-bottom: 0px;
+}
+
+.title {
+  font-size: 18px;
+  font-family: "Verdana", sans-serif;
+  color: #898989;
+}
+
+.clear {
+  cursor: pointer;
+  color: #007bff;
+  font-family: "Verdana", sans-serif;
+}
+
+.main-filter {
+  padding: 20px;
+  padding-top: 0px;
+  display: flex; /* Usa flexbox para el diseño de las cartas */
+  flex-wrap: wrap; /* Permite que las cartas se envuelvan a la siguiente línea cuando no hay suficiente espacio */
+  justify-content: flex-start;
+}
+
+/* Estilos específicos para las cartas */
+.card {
+  width: 170px;
+  margin: 10px; /* Añade un margen entre las cartas para separarlas */
+  padding: 0px;
+  text-align: center;
+}
+
+.continent-image {
+  width: 100%;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 8px;
+}
+
+.continent-name {
+  font-size: 14px;
+  text-align: left;
+  font-family: "Verdana", sans-serif;
+  color: #898989;
+}
+
+/* Estilos específicos para las cartas seleccionadas */
+.selected .continent-image {
+  box-shadow: 0 0 15px rgba(0, 123, 255, 1), 0 0 10px rgba(0, 123, 255, 0.6),
+    0 0 5px rgba(0, 123, 255, 0.4);
+}

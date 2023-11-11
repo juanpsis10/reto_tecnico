@@ -1,0 +1,148 @@
+/* CountryDetail.css */
+
+/* Estilos para el botón en la vista de detalle del país */
+.country-detail button {
+  background-color: white;
+  border: none;
+  font-weight: bold;
+  float: right;
+  margin: 10px;
+  transition: border 0.3s, box-shadow 0.3s;
+}
+
+/* Efecto de sombra al pasar el mouse sobre el botón */
+.country-detail button:hover {
+  box-shadow: 0 0 20px rgba(173, 216, 230, 1);
+}
+
+/* Estilos para la vista de detalle del país */
+.country-detail {
+  width: 18%;
+  margin-top: 5%;
+  height: 75%;
+  max-width: 400px;
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  z-index: 1000;
+  position: fixed;
+  top: 50%;
+  right: 0;
+  margin-right: 2%;
+  transform: translate(0, -50%);
+}
+
+/* Estilos para la imagen superior en la vista de detalle del país */
+.country-image-top {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 20px;
+}
+
+/* Estilos para la imagen pequeña en la vista de detalle del país */
+.country-small-image {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.country-small-image {
+  margin-top: 10px;
+}
+
+/* Estilos para el contenedor de información del país */
+.country-info-container {
+  display: flex;
+  width: 100%;
+}
+
+/* Estilos para el contenedor de la bandera */
+.flag-container {
+  flex: 0.7;
+}
+
+/* Estilos para el contenedor de texto */
+.text-container {
+  flex: 1;
+  padding: 0%;
+}
+
+/* Estilos para la bandera del país */
+.country-flag {
+  width: 80%;
+  height: 50%;
+  margin-top: 25%;
+  margin-left: 0%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+/* Estilos para el nombre del país en la vista de detalle */
+#country-name {
+  margin-top: 18%;
+  padding: 0;
+  width: 100%;
+  font-size: 18px;
+  font-weight: bold;
+  font-family: "Verdana", sans-serif;
+  color: #009aff;
+}
+
+/* Estilos para el continente en la vista de detalle */
+#country-continent {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  font-size: 16px;
+  font-family: "Verdana", sans-serif;
+  color: #898989;
+}
+
+/* Estilos para los contenedores de información */
+#conteiner-1,
+#conteiner-2,
+#conteiner-3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+/* Estilos para los elementos de los contenedores de información */
+#conteiner-1 > div,
+#conteiner-2 > div,
+#conteiner-3 > div {
+  display: flex;
+  flex-direction: column;
+  width: 35%;
+  padding: 10px;
+}
+
+/* Estilos para los elementos de la segunda columna de información */
+#conteiner-1 > div:nth-child(2),
+#conteiner-2 > div:nth-child(2),
+#conteiner-3 > div:nth-child(2) {
+  width: 65%;
+  font-size: 18px;
+  font-family: "Verdana", sans-serif;
+  color: #898989;
+  margin-left: 5px;
+}
+
+/* Estilos para los elementos de la primera columna de información */
+#conteiner-1 > div:nth-child(1),
+#conteiner-2 > div:nth-child(1),
+#conteiner-3 > div:nth-child(1) {
+  font-size: 19px;
+  font-weight: bold;
+  font-family: "Verdana", sans-serif;
+  color: #009aff;
+}
+
+/* Estilos específicos para el primer contenedor de información */
+#conteiner-1 {
+  margin-top: 20px;
+}
